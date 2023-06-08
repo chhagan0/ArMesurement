@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_400sdp"
+app:cardCornerRadius="@dimen/_15sdp"
+        android:id="@+id/crd"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/screenshotimage"/>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <EditText
+        android:id="@+id/imagename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/crd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:hint="Enter Image Name" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btncancel"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/imagename"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:text="Cancel" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnsave"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/imagename"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="Save" />
+</RelativeLayout>

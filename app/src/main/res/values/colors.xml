@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Pastel_Bule">#ADD6CF</color>
+    <color name="Laurel_Green">#9FB693</color>
+    <color name="Lemon_Meringue">#F8E8C4</color>
+    <color name="Pastel_Pink">#F0AF9E</color>
+    <color name="Copper">#E48364</color>
+</resources>

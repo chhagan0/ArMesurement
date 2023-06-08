@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Measure">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/wish"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:paddingLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/mea"
+        android:layout_below="@+id/btnCam"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/btnCam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_bg"
+        android:src="@drawable/camera_24"
+        app:layout_anchor="@id/bottomAppBar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+         tools:ignore="BottomAppBar">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    app:labelVisibilityMode="labeled"
+                    app:menu="@menu/menu"
+                    android:background="@drawable/transparent_bg"/>
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:src="@drawable/baseline_logout_24"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+        app:layout_anchor="@id/bottomAppBar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+<!--        <ImageView-->
+<!--        android:id="@+id/imgview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@+id/btnCam"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

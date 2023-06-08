@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "29182128988",
+    "firebase_url": "https://aadhaar-loan-432bf-default-rtdb.firebaseio.com",
+    "project_id": "aadhaar-loan-432bf",
+    "storage_bucket": "aadhaar-loan-432bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29182128988:android:2aff529861ef367dff0799",
+        "android_client_info": {
+          "package_name": "com.cxzcodes.armeasure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29182128988-m196seeeovc1t4rr2fph7keqed5cj0qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJQSs7nLn4hmj_e0PTtYo6zyOHPkkALMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29182128988-m196seeeovc1t4rr2fph7keqed5cj0qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29182128988:android:fa40226fadc164f2ff0799",
+        "android_client_info": {
+          "package_name": "com.example.armeasur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29182128988-7f46n431dhl3l054rths8k42anv3gqh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.armeasur",
+            "certificate_hash": "c691100c51e00d26da9e919f319bb0eb697aed32"
+          }
+        },
+        {
+          "client_id": "29182128988-m196seeeovc1t4rr2fph7keqed5cj0qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJQSs7nLn4hmj_e0PTtYo6zyOHPkkALMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29182128988-m196seeeovc1t4rr2fph7keqed5cj0qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29182128988:android:37889f6f030a594eff0799",
+        "android_client_info": {
+          "package_name": "com.infinity.shapefactorymeasurement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29182128988-m196seeeovc1t4rr2fph7keqed5cj0qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJQSs7nLn4hmj_e0PTtYo6zyOHPkkALMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29182128988-m196seeeovc1t4rr2fph7keqed5cj0qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

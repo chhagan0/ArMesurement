@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ARMeasure</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="email_id">Email id</string>
+    <string name="let_s_get_started">Let\'s Get Started.</string>
+    <string name="welcome">welcome</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="helloworld">HelloWorld</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="measure">Measure</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="general">General</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="theme">Theme</string>
+    <string name="appearance">Appearance</string>
+    <string name="finish_button">finish button</string>
+
+</resources>
